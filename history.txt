@@ -533,3 +533,22 @@
   533  git status
   534  git commit -m "my first commit"
   535  history > history.txt
+  536  git add history.txt
+  537  git commit -m "this is a challenge"
+  538  git status
+  539  ls
+  540  gitk
+  541  git push
+  542  git push -u origin master
+  543  git clone https://github.com/ws73/IT635Spring17.git
+  544  git push -u origin master
+  545  ls
+  546  cd IT635Spring17/
+  547  ls
+  548  cd ..
+  549  git push
+  550  git push -u origin master
+  551  git remote add origin https://github.com/ws73/IT635Spring17.git
+  552  git push -u irigin master
+  553  git init -v
+  554  history > history.txt
