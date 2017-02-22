@@ -1,0 +1,535 @@
+    1  ls
+    2  cd /etc
+    3  ls
+    4  exit
+    5  ls
+    6  cd Music
+    7  ls
+    8  cd ..
+    9  cd Public
+   10  ls
+   11  cd ..
+   12  cd Videos
+   13  ls
+   14  cd Downloads 
+   15  cd ..
+   16  cd Downloads
+   17  ld
+   18  cd ..
+   19  cd Desktop
+   20  ls
+   21  cd ..
+   22  cd Documents
+   23  ls
+   24  ll
+   25  exit
+   26  cd /ect 
+   27  cd /etc
+   28  ll
+   29  ls
+   30  cd /opt
+   31  ls
+   32  cd ..
+   33  cd pm
+   34  ifconfig
+   35  ping 10.0.2.15
+   36  cat /etc/redhat-release
+   37  uname -a
+   38  sudo cat /etc/redhat-release
+   39  df -h
+   40  ls
+   41  cd mnt
+   42  ls
+   43  cd media 
+   44  cd run
+   45  cd /media
+   46  ls
+   47  exit
+   48  ll
+   49  cd git 
+   50  ll
+   51  cd ..
+   52  rm git
+   53  rm -rf git
+   54  ll
+   55  sudo apt-get install gitk
+   56  gitk
+   57  ls
+   58  cd ..
+   59  ll 
+   60  cd ll
+   61  cd git
+   62  cd ,,
+   63  ll
+   64  ls
+   65  cd ~
+   66  ls
+   67  locate git
+   68  git
+   69  cd git
+   70  find git
+   71  git status
+   72  sudo apt-get install git
+   73  git status
+   74  history
+   75  sudo apt-get install gitk
+   76  git status
+   77  git push -u origin master
+   78  cd ~
+   79  ls 
+   80  who am i
+   81  whoam i
+   82  man -cat 
+   83  man cat 
+   84  clear
+   85  ls -la
+   86  cd /Desktop
+   87  ls
+   88  cd /Desktop
+   89  cd Desktop
+   90  ls
+   91  sudo rm -rf
+   92  ls 
+   93  sudo apt-get update
+   94  sudo apt-get install synaptic
+   95  sudo synaptic
+   96  history
+   97  mkdir git 
+   98  rm - r git
+   99  cd git
+  100  rm -r git
+  101  rm -r git /
+  102  cd /etc/
+  103  ls
+  104  ls 
+  105  cd ..
+  106  '
+  107  mysql -u root -p
+  108  sudo apt-get mysql server
+  109  sudo apt-get mysql-server
+  110  sudo apt-get install mysql-server
+  111  mysql -u root -p
+  112  sudo apt-get install php
+  113  sudo apt-get install git
+  114  mysql -u root -p
+  115  synatic
+  116  synaptic
+  117  clear 
+  118  cd /Desktop
+  119  cd Desktop
+  120  cd ~
+  121  cd /Desktop
+  122  cd Desktop
+  123  ls la
+  124  cd ..
+  125  sudo apt-get update
+  126  sudo apt-get install synaptic
+  127  sudo synaptic
+  128  history 
+  129  ps -ef |grep -i packagekit
+  130  mkdir git 
+  131  cd git
+  132  rm -r git
+  133  rm -r git
+  134  ls
+  135  cd git
+  136  cd /
+  137  ls
+  138  cd /home
+  139  ls
+  140  cd ~
+  141  cd /etc
+  142  cd /va/logs
+  143  cd /va/log
+  144  cd ..
+  145  sudo synaptic
+  146  sudo apt-get install mysql
+  147  sudo apt-get install mysql-server
+  148  show databases;
+  149  mysql -u root -p
+  150  cat bash.history
+  151  cat bash
+  152  cat .bash
+  153  exit
+  154  cat .bash
+  155  history 
+  156  cat .bash
+  157  mysql -u root -p
+  158  sudo apt-get install php
+  159  sudo apt-get install git
+  160  mkdir it635
+  161  cd it635
+  162  ls
+  163  git init 
+  164  git status
+  165  mysqldump -u root -p
+  166  mysqldump -u root -p Classes >backup.sql
+  167  cat backup.sql
+  168  git add backup.sql 
+  169  git status
+  170  git rm --cache backup.sql 
+  171  git status
+  172  git add backup.sql 
+  173  history > history.txt
+  174  git add history.txt
+  175  git status
+  176  git commit -m "first commit, nothing important here"
+  177  git config --global user.email "ws73@njit.edu"
+  178  git config --global user.name "welvens senatus"
+  179  git commit -m "first commit, nothing important here"
+  180  sudo apt-get install gitk
+  181  gitk
+  182  git log
+  183  git remote add origin git@github.com:ws73/IT635Spring17.git
+  184  git push -u origin master
+  185  git remote add origin git@github.com:ws73/IT635Spring17.git
+  186  git push -u origin master
+  187  history >history.txt
+  188  git status
+  189  git commit -m "update history"
+  190  git commit -am "update history"
+  191  gitk
+  192  git push
+  193  git --set-upstream origin master
+  194  git push
+  195  mkdir git
+  196  cd git
+  197  git clone https://github.com/engineerOfLies/IT635Spring17.git
+  198  ls
+  199  cd IT635Spring17/
+  200  ls
+  201  gitk
+  202  history > history.txt
+  203  git commit -am "more history"
+  204  git push
+  205  exit
+  206  ll
+  207  ls
+  208  cd it635
+  209  ls
+  210  cat history.txt
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd it365
+  215  cd ~
+  216  ls
+  217  cd it635
+  218  ls
+  219  cd git
+  220  ls
+  221  cd IT635Spring17/
+  222  sudo apt-get install vim
+  223  gedit
+  224  gedit tesdb.php
+  225  ls
+  226  cd it635
+  227  ls
+  228  cd git
+  229  ls
+  230  cd IT635Spring17/
+  231  ls
+  232  sudo apt-get install mysql-php
+  233  sudo apt-get install vim
+  234  sudo apt-get install compiz
+  235  history
+  236  mysql -u root -p
+  237  git clone https://github.com/engineerOfLies/IT635Spring17.git
+  238  ls
+  239  ll
+  240  cd ..
+  241  git clone https://github.com/engineerOfLies/IT635Spring17.git
+  242  ls 
+  243  cd IT635Spring17/
+  244  ls 
+  245  ls
+  246  cat history.txt
+  247  ls
+  248  cat history.txt
+  249  cd ..
+  250  git status
+  251  cd git
+  252  ls
+  253  cd ~
+  254  ls
+  255  cd it635
+  256  ls
+  257  cd git
+  258  ls
+  259  git status
+  260  cd IT635Spring17/
+  261  ls
+  262  cat history.txt
+  263  cd history
+  264  mysqldump -u root -p > backup.sql
+  265  mysqldump -u root -p Classes > backup.sql
+  266  cat backup.sql
+  267  git add backup.sql
+  268  git status
+  269  git add history.txt
+  270  ls
+  271  git status
+  272  git commit -m "first commit nothing important here"
+  273  https://github.com/engineerOfLies/IT635Spring17.git
+  274  git push -u origin master 
+  275  push
+  276  sudo apt-ge heimdal-client
+  277  sudo apt-get heimdal-client
+  278  sudo apt-get install heimdal-client
+  279  push
+  280  git commit -am "update history"
+  281  git remote add origin git@github.com:ws73/IT635Spring17.git
+  282  git push -u origin master
+  283  git push
+  284  git clone
+  285  git init
+  286  git clone
+  287  git pull
+  288  git push
+  289  ls
+  290  cat StudentDB.inc
+  291  cat testdb.php
+  292  exit
+  293  gedit logindb.php
+  294  gedit mysqldb.php
+  295  sudo -u root -p
+  296  sudo mysql -u root -p
+  297  cd it635
+  298  ll
+  299  cd git
+  300  ll
+  301  cd IT635Spring17/
+  302  ll
+  303  cd studentDB
+  304  cd ..
+  305  cd Desktop
+  306  ll
+  307  cd IT635Spring17-master/
+  308  ll
+  309  cd history.txt
+  310  cd studentDB.inc
+  311  ll
+  312  cat history.txt
+  313  ll
+  314  cat studentDB.inc
+  315  ll
+  316  cat backup.sql
+  317  vim
+  318  mysql -u root -p
+  319  exit
+  320  cd ~
+  321  ll
+  322  ls 
+  323  cd ..
+  324  ls
+  325  cd /
+  326  ls
+  327  cd ..
+  328  cd ~
+  329  ls
+  330  cd it635/
+  331  ls
+  332  cd git
+  333  ls
+  334  cd IT635Spring17/
+  335  ls
+  336  history
+  337  cd..
+  338  cd ..
+  339  ls
+  340  find myit635
+  341  locate myit635
+  342  cd home 
+  343  ls
+  344  cd wsena
+  345  ls
+  346  cd myit635/
+  347  ls
+  348  git init
+  349  git status
+  350  mysqldump -u root -p DigitalEvidenceSystem > backup.sql
+  351  cat backup.sql
+  352  git add backup.sql
+  353  git status
+  354  history > history.txt
+  355  cat history.txt
+  356  git add history.txt
+  357  git status
+  358  git commit _m "fit
+  359  c
+  360  exit
+  361  |q
+  362  exit
+  363  ls
+  364  cd home
+  365  cd /home
+  366  ls
+  367  cd wsena
+  368  ls
+  369  dc myit635/
+  370  cd myit635/
+  371  ls
+  372  cd git
+  373  ls
+  374  cd IT635Spring17/
+  375  ls
+  376  cd ..
+  377  ls
+  378  cd ..
+  379  ls
+  380  cd wsena/
+  381  ls
+  382  cd myit635/
+  383  ls
+  384  ls 
+  385  rm -vf git/
+  386  rm -rf git
+  387  ls
+  388  git init
+  389  git status
+  390  mysqldump -u root -p DigitalEvidenceSystem > backup.sql
+  391  ls
+  392  cat backup.sql 
+  393  git add backup.sql 
+  394  git status
+  395  history > history.txt 
+  396  ls
+  397  git add history.txt
+  398  git status
+  399  git commit -m "this class is a challenge"
+  400  git config --global user.email "ws73@njit.edu"
+  401  git config --global user.n
+  402  git config --global user.email "ws73@njit.edu"
+  403  gitk
+  404  git log
+  405  git push -u origin master
+  406  git remote add origin git@github.com:ws73/IT635Spring17.git
+  407  ls
+  408  git push -u origin master
+  409  git remote add origin git@github.com:ws73/IT635Spring17.git
+  410  git push -u origin master
+  411  push
+  412  git push
+  413  git push --set-upstream origin master
+  414  git config --glabal user.name "welvens senatus"
+  415  git config --glabal user.email "ws73@njit.edu"
+  416  ls
+  417  cat myit635
+  418  ls
+  419  git@github.com:ws73
+  420  git@github.com:ws73/IT635Spring17.git
+  421  git init
+  422  git push
+  423  git config --global push.default simple
+  424  git config --glabal user.name "Welvens Senatus"
+  425  git commit -am "update history"
+  426  gitk
+  427  git push
+  428  git push --upstream origin master
+  429  git remote -v
+  430  git branch -a
+  431  git remote origin master
+  432  git push --set-upstream origin master
+  433  git push
+  434  git push --set-upstream origin master
+  435  git push origin master
+  436  rm -rf myit635
+  437  ls
+  438  cd ..
+  439  ls
+  440  rm -rf myit635/
+  441  ls
+  442  exit
+  443  ls
+  444  cd it635/
+  445  ls
+  446  cd git/
+  447  LS
+  448  ls
+  449  cd IT635Spring17/
+  450  ls
+  451  cd ..
+  452  mkdir
+  453  mkdir myit635
+  454  ls
+  455  git init
+  456  ls
+  457  cd myit635/
+  458  git init
+  459  git status
+  460  mysqldump -u root -p DigitalEvidenceSystem > backup.sql
+  461  git add backup.sql
+  462  git status
+  463  cat backup.sql 
+  464  git commit -m "it an interesting class"
+  465  gitk
+  466  ls
+  467  git log
+  468  history > history.txt
+  469  git add history.txt
+  470  git status
+  471  git commit -m "it is a challenge"
+  472  ls
+  473  git push
+  474  git push -u origin master
+  475  git remote add origin git@github.com:ws73/IT635Spring17.git
+  476  ls
+  477  git@github.com:
+  478  ls
+  479  cd ..
+  480  ls
+  481  cd myit635/
+  482  git remote add origin https://github.com/IT635Spring17.git
+  483  git push -u origin master
+  484  git init 
+  485  cd ..
+  486  ls 
+  487  rm -rf it635/
+  488  ls
+  489  ls 
+  490  rm -rf myit635/
+  491  ls
+  492  mkdir IT635Spring17
+  493  ls
+  494  cd IT635Spring17/
+  495  git init
+  496  clear
+  497  ls
+  498  ll
+  499  git status
+  500  mysqldump -u root -p DigitalEvidenceSystem > backup.sql
+  501  git add backup.sql 
+  502  git status
+  503  cat backup.sql 
+  504  git commit -m "my first commit"
+  505  history > history.txt
+  506  git add history.txt
+  507  git status
+  508  git commit -m "it is a challenge"
+  509  git status
+  510  git log
+  511  gitk
+  512  git push
+  513  git push -u origin master
+  514  sudo apt-get install git
+  515  git push
+  516  git push -u origin master
+  517  git pull
+  518  git remote add origin git@github.com:ws73/IT635Spring17.git
+  519  git push -u origin master
+  520  ls
+  521  cd ..
+  522  ls
+  523  rm -rf IT635Spring17/
+  524  ls
+  525  mkdir myit635
+  526  ls
+  527  cd myit635/
+  528  git init
+  529  ll
+  530  mysqldump -u root -p DigitalEvidenceSystem > backup.sql
+  531  ls 
+  532  git add backup.sql 
+  533  git status
+  534  git commit -m "my first commit"
+  535  history > history.txt
