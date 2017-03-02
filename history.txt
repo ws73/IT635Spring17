@@ -442,113 +442,76 @@
   442  exit
   443  ls
   444  cd it635/
-  445  ls
-  446  cd git/
-  447  LS
+  445  ls 
+  446  cd git
+  447  clear
   448  ls
-  449  cd IT635Spring17/
-  450  ls
-  451  cd ..
-  452  mkdir
-  453  mkdir myit635
-  454  ls
-  455  git init
-  456  ls
-  457  cd myit635/
-  458  git init
-  459  git status
-  460  mysqldump -u root -p DigitalEvidenceSystem > backup.sql
-  461  git add backup.sql
-  462  git status
-  463  cat backup.sql 
-  464  git commit -m "it an interesting class"
-  465  gitk
+  449  cd ..
+  450  ls 
+  451  cd git
+  452  ls
+  453  cd ..
+  454  ls 
+  455  cd it635/
+  456  cd ..
+  457  cp -r git /it635
+  458  cp -rf git /it635
+  459  clear 
+  460  ls
+  461  cp -R git it635
+  462  ls
+  463  cd it635/
+  464  ls
+  465  cd git
   466  ls
-  467  git log
-  468  history > history.txt
-  469  git add history.txt
-  470  git status
-  471  git commit -m "it is a challenge"
-  472  ls
-  473  git push
-  474  git push -u origin master
-  475  git remote add origin git@github.com:ws73/IT635Spring17.git
+  467  cd ..
+  468  ls
+  469  clear 
+  470  cd ~
+  471  ls
+  472  rm -vf git
+  473  rm -rf git
+  474  ls
+  475  cd it635/
   476  ls
-  477  git@github.com:
-  478  ls
-  479  cd ..
-  480  ls
-  481  cd myit635/
-  482  git remote add origin https://github.com/IT635Spring17.git
-  483  git push -u origin master
-  484  git init 
-  485  cd ..
-  486  ls 
-  487  rm -rf it635/
-  488  ls
-  489  ls 
-  490  rm -rf myit635/
+  477  ls 
+  478  cd git
+  479  ls 
+  480  cd IT635Spring17/
+  481  ls
+  482  cd ..
+  483  mysql -u -root -p
+  484  mysql -u root -p
+  485  exit
+  486  mysql -u root -p
+  487  ls
+  488  cd ll
+  489  ll
+  490  cd ~
   491  ls
-  492  mkdir IT635Spring17
+  492  cd it635/
   493  ls
-  494  cd IT635Spring17/
-  495  git init
-  496  clear
-  497  ls
+  494  cd ..
+  495  locate myit635
+  496  clear 
+  497  cd ..
   498  ll
-  499  git status
-  500  mysqldump -u root -p DigitalEvidenceSystem > backup.sql
-  501  git add backup.sql 
-  502  git status
-  503  cat backup.sql 
-  504  git commit -m "my first commit"
-  505  history > history.txt
-  506  git add history.txt
-  507  git status
-  508  git commit -m "it is a challenge"
-  509  git status
-  510  git log
-  511  gitk
-  512  git push
-  513  git push -u origin master
-  514  sudo apt-get install git
-  515  git push
-  516  git push -u origin master
-  517  git pull
-  518  git remote add origin git@github.com:ws73/IT635Spring17.git
-  519  git push -u origin master
-  520  ls
-  521  cd ..
-  522  ls
-  523  rm -rf IT635Spring17/
-  524  ls
-  525  mkdir myit635
-  526  ls
-  527  cd myit635/
-  528  git init
-  529  ll
-  530  mysqldump -u root -p DigitalEvidenceSystem > backup.sql
-  531  ls 
-  532  git add backup.sql 
-  533  git status
-  534  git commit -m "my first commit"
-  535  history > history.txt
-  536  git add history.txt
-  537  git commit -m "this is a challenge"
-  538  git status
-  539  ls
-  540  gitk
-  541  git push
-  542  git push -u origin master
-  543  git clone https://github.com/ws73/IT635Spring17.git
-  544  git push -u origin master
-  545  ls
-  546  cd IT635Spring17/
-  547  ls
-  548  cd ..
-  549  git push
-  550  git push -u origin master
-  551  git remote add origin https://github.com/ws73/IT635Spring17.git
-  552  git push -u irigin master
-  553  git init -v
-  554  history > history.txt
+  499  cd wsena
+  500  ls
+  501  cd myit635/
+  502  ls
+  503  cd git
+  504  ls
+  505  cd IT635Spring17/
+  506  ls 
+  507  vim mytestdb.php
+  508  cd mytestdb.php
+  509  chmod + x mytestdb.php 
+  510  chmod +x mytestdb.php 
+  511  ls
+  512* 
+  513  vim mytestdb.php
+  514  clear 
+  515  ls
+  516  histoty > history.txt
+  517  history > history.txt
