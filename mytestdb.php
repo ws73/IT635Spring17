@@ -13,9 +13,16 @@ if ($db->connect_errno != 0)
 }
 
 echo "successfully connected!".PHP_EOL;
-$query = "select * from VehicleAccident;";
-$db->query($query);
 
+$query = "select * from VehicleAccident;";
+
+$queryResponse = $db->query($query);
+
+print_r($queryResponse);
+while ($row = $queryResponse->fetch_assoc())
+{
+print_r ($row);
+}
 $db->close();
 
 echo "program complete".PHP_EOL;
