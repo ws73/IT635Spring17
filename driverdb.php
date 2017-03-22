@@ -4,23 +4,31 @@
 require_once("driverDB.inc");
 
 echo "executing script: ".$argv[0].PHP_EOL;
-$driverName = $argv[1];
-$driverId = $argv[2];
-$driverAddress = $argv[3];
-$driverYear = $argv[4];
+$driverID = $argv[1];
+$driverName = $argv[2];
+$driverVeh = $argv[3];
+$driverAcc = $argv[4];
+$driverAddress=$argv[5];
+$driverdate= $argv[6];
+$driverreport=$argv[7];
+$driverstatus=$argv[8];
 
 $driverDB = new driverAccess("DigitalEvidenceSystem");
 
 $driverDB->adddriverRecord(
+	$driverID,
 	$driverName,
-	$driverId,
-	$driverAddress,
-	$driverYear
+	$driverVeh,
+	$driverAcc,
+        $driverAddress,
+        $driverdate,
+        $driverreport,
+        $driverstatus
 );
 
 $drivers = $driverDB->getdriverRecords();
 
 echo "driver records in db are:".PHP_EOL;
 print_r($drivers);
-echo $argv[0]." complete".PHP_EOL;
+echo $argv[0]." driver report complete".PHP_EOL;
 ?>

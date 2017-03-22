@@ -35,15 +35,19 @@ public function getdriverRecords()
 	return $response;
 }
 
-public function adddriverRecord($driverName,$driverid,$driveraddress,$driveryear)
+public function adddriverRecord($driverID,$driverName,$driverVeh,$driverAcc,$driverAddress,$driverdate,$driverreport,$driverstatus)
 {
-	$sn = $this->db->real_escape_string($driverName);
-	$id = $this->db->real_escape_string($driverid);
-	$address = $this->db->real_escape_string($driveraddress);
-	$year = $this->db->real_escape_string($driveryear);
-	echo "before escape:\n$driveryear\n";
-	echo "after escape:\n$year\n";
-	$query = "insert into VehicleAccident(driver,case_ID,address,year) VALUES ('$sn','$id','$address',$year);";
+	$ID = $this->db->real_escape_string($driverID);
+	$dn = $this->db->real_escape_string($driverName);
+	$dv = $this->db->real_escape_string($driverVeh);
+	$dacc = $this->db->real_escape_string($driverAcc);
+        $ddate = $this->db->real_escape_string($driverdate);
+        $dreport = $this->db->real_escape_string($driverreport);
+        $dstatus = $this->db->real_escape_string($driverstatus);
+
+	echo "before escape:\n$driverstatus\n";
+	echo "after escape:\n$driverName\n";
+	$query = "insert into VehicleAccident(ID,driver,accident,address,date,report,status) VALUES ('$ID','$dn','$dv','$dacc','$ddate','$dreport','$dstatus');";
 
 	echo "executing SQL statement:\n".$query."\n";
 	if (!$this->db->query($query))
