@@ -23,16 +23,16 @@ DROP TABLE IF EXISTS `VehicleAccident`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `VehicleAccident` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `driver` varchar(55) DEFAULT NULL,
+  `vehicle` varchar(60) DEFAULT NULL,
   `accident` varchar(255) DEFAULT NULL,
-  `driver` varchar(255) DEFAULT NULL,
-  `vehicles` varchar(255) DEFAULT NULL,
   `address` varchar(255) DEFAULT NULL,
-  `sex` varchar(255) DEFAULT NULL,
-  `Date` varchar(255) DEFAULT NULL,
-  `officer` varchar(255) DEFAULT NULL,
-  `Status` varchar(255) NOT NULL,
-  `city` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `date` varchar(255) DEFAULT NULL,
+  `report` varchar(255) DEFAULT NULL,
+  `status` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,31 +41,8 @@ CREATE TABLE `VehicleAccident` (
 
 LOCK TABLES `VehicleAccident` WRITE;
 /*!40000 ALTER TABLE `VehicleAccident` DISABLE KEYS */;
-INSERT INTO `VehicleAccident` VALUES ('broadsided','Darline','honda civic','orange','female','june 21st 2016','Tim','Arest','Newark'),('slideswipe','karl','ford explorer','east orange','male','july 24rd 2016','Matt','warning','south orange'),('head-on','John','honda accord','irvington','male','june 23rd 2016','Tim','warrant','Newark');
+INSERT INTO `VehicleAccident` VALUES (1,'Darline','HondaCivic','crash','union','01/02/2016','drunk driver','arest'),(2,'Mark','Toyota camry','hit&run','Orange','03/02/2016','text and drive','warrant'),(3,'Paul','volvo s40','hit&run','highway 280','01/05/2017','drunk','Investigation');
 /*!40000 ALTER TABLE `VehicleAccident` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `login`
---
-
-DROP TABLE IF EXISTS `login`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `login` (
-  `name` varchar(50) DEFAULT NULL,
-  `passwd` varchar(50) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `login`
---
-
-LOCK TABLES `login` WRITE;
-/*!40000 ALTER TABLE `login` DISABLE KEYS */;
-INSERT INTO `login` VALUES ('supervisor','support$01');
-/*!40000 ALTER TABLE `login` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -104,4 +81,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-03-21  0:12:21
+-- Dump completed on 2017-03-22 10:10:45

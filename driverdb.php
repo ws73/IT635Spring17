@@ -20,7 +20,7 @@ $driverDB->adddriverRecord(
 
 $drivers = $driverDB->getdriverRecords();
 
-echo "student records in db are:".PHP_EOL;
+echo "driver records in db are:".PHP_EOL;
 print_r($drivers);
 echo $argv[0]." complete".PHP_EOL;
 ?>
